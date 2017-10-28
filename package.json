@@ -1,0 +1,56 @@
+{
+  "name": "react-reusable-components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "recompose": "^0.26.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "eslint": "eslint ."
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.13",
+    "@storybook/addon-links": "^3.2.13",
+    "@storybook/react": "^3.2.13",
+    "babel-eslint": "7.2.3",
+    "babel-plugin-inline-dotenv": "1.1.1",
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-module-resolver": "2.7.1",
+    "babel-plugin-react-css-modules": "3.3.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "babel-plugin-transform-remove-console": "^6.8.5",
+    "babel-plugin-wrap-in-js": "1.1.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-graphql": "^1.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "jest-enzyme": "^3.8.3",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^2.1.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.0.0",
+    "styled-jsx": "1.0.11",
+    "styled-jsx-plugin-postcss": "^0.1.1"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test-setup.js"
+  }
+}
